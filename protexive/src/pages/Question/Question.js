@@ -52,7 +52,6 @@ const Question = (props) => {
 
                 <div className="skipAll">
                   <Button
-                    href="#"
                     variant="text"
                     className="skipAllButton"
                     onClick={handleSkipAllClick}
@@ -62,7 +61,6 @@ const Question = (props) => {
                 </div>
                 <div className="forward">
                   <Button
-                    href="#"
                     variant="text"
                     className="skipButton"
                     onClick={handleSkipClick}

@@ -228,3 +228,34 @@ export const categories = [
     ],
   },
 ];
+
+export const recs = [
+  {
+    id: 1,
+    cat: "Pet",
+    desc: "With Tuponian, you can provide them the protection they need",
+    logo: "https://static.vecteezy.com/system/resources/previews/005/484/042/original/dog-logo-illustration-free-vector.jpg",
+    url: "",
+  },
+  {
+    id: 2,
+    cat: "Liability",
+    desc: "Your primary policies may not be enough.",
+    logo: "https://as1.ftcdn.net/v2/jpg/01/37/70/96/1000_F_137709670_YjGF22sPBkRUunSPzAFK2HlKhK0hme7A.jpg",
+    url: "",
+  },
+  {
+    id: 3,
+    cat: "Small Business",
+    desc: "General liability and property insurance",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTfogAPg9wsu_gbiZYYDjoTXD2CB0zYMMUTrE_mHHFP-iKV5IGZ_etpqEHe1Cn6kPXrKM&usqp=CAU",
+    url: "",
+  },
+  {
+    id: 4,
+    cat: "Health",
+    desc: "State Farm can help you find the health coverage you need.",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Ro-HiGZ-6kTZxwh2clSWpTvRo7n30TNhpDS-8zL1x1FyKUZd79IXVvIBOOiI5vh6dcI&usqp=CAU",
+    url: "",
+  },
+];
