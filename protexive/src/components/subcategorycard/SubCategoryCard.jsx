@@ -19,6 +19,7 @@ function SubCategoryCard({subCatName, desc}) {
             <button className='btn-next'>
                <Link to={"/questions"}>
                     <GrNext className='btn-nxt-logo'/>
+                    
                </Link> 
             </button>
         
