@@ -1,0 +1,33 @@
+.reclist-container{
+    height: 100px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.rec-row{
+    display: flex;
+}
+
+.rec-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.rec-info{
+    margin: 0px 20px 10px 10px;
+}
+.rec-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0,0,0,0.8);
+}
+.rec-desc{
+    font-size: 10px;
+}
+.pref-link{
+    margin-left: 180px;
+    
+}
+

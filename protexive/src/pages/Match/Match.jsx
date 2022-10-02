@@ -52,7 +52,7 @@ function Match() {
                     </div>
                 </div>
                 <div className='pref-more'>
-                    <Link style={{textDecoration:'none', color:'white'}} to={"/"}>More Insurance</Link>
+                    <Link style={{textDecoration:'none', color:'white'}} to={"/recs"}>More Insurance</Link>
                 </div>
                 
             </div>
