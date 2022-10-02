@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Question from "./pages/Question/Question";
 
 const routesMap = () => {
@@ -17,4 +17,3 @@ const routesMap = () => {
 };
 
 export default routesMap;
-

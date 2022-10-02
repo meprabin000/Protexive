@@ -1,0 +1,38 @@
+.scroller-btn-container{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.scr-btn-text{
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+    background-color: rgba(190, 248, 190, 0.451);
+    border-radius: 25px;
+    color:#7dce83;
+    border: 0.5px solid #7dce83;
+}
+
+.scr-btn-text-active{
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+    background-color: rgba(190, 248, 190, 0.451);
+    border-radius: 25px;
+    color:#7dce83;
+    border: 3px solid #7dce83;
+}
+
+
+
+
+
+
+
+
+.scr-logo{
+    font-size: 15px;
+    margin-right: 10px;
+    
+}

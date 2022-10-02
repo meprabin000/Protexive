@@ -1,0 +1,6 @@
+.scroller-container{
+    display: flex;
+    overflow-x: scroll;
+  
+    height: 80px;
+}
