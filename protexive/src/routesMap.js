@@ -1,15 +1,13 @@
 import React from "react";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 
 const routesMap = () => {
-    return ([ 
-            {
-                "path": "/",
-                "element": <Home />
-            }
-        ]
-    );
+  return [
+    {
+      path: "/",
+      element: <Home />,
+    },
+  ];
 };
 
 export default routesMap;
-
