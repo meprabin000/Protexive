@@ -17,14 +17,14 @@ const Question = (props) => {
   const handleSkipClick = (e) =>
     questionIndex < questionLength - 1
       ? setQuestionIndex(questionIndex + 1)
-      : navigate("/");
-  const handleSkipAllClick = (e) => navigate("/");
+      : navigate("/match");
+  const handleSkipAllClick = (e) => navigate("/match");
 
   return (
     <div className="q-container">
       <Topbar />
       <div className="user-intro">
-        <div className="user-name-2">Hey Alexander,</div>
+        <div className="user-name-2">Hey Alex,</div>
         <div className="welcome-msg-2">
           Let's match you with the best insurance
         </div>
