@@ -1,0 +1,65 @@
+.surveyBox {
+    background-color: red;
+    padding: 5%;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    height: 100vh;
+}
+
+.progressBar {
+    width: 90%;
+    position: fixed;
+    top: 12%;
+}
+
+.questionCard {
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+}
+
+.question {
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.textInputWrapper {
+    padding: 10%;
+}
+
+.nextButtonWrapper {
+    padding-top: 10%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+    width: 90%;
+}
+
+.footer > div {
+    display: inline-block;
+}
+
+.skipAll {
+    width: 40%;
+}
+
+.forward {
+    width: 50%;
+}
+
+.skipButton, .skipAllButton {
+    color: white !important;
+}
+
+.skipButton {
+    padding-left: 80% !important;
+}
