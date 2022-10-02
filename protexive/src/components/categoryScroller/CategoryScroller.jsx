@@ -1,8 +1,10 @@
 import ScrollerButton from '../scrollerButton/ScrollerButton'
 import './categoryScroller.css'
-import { categories } from '../../dummyData'
+import { categories } from '../../dummyData';
+import { useState } from 'react';
 
 function CategoryScroller({setSubCategories}) {
+ 
 
   return (
     <>
