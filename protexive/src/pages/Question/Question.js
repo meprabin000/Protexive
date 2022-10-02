@@ -14,11 +14,19 @@ const Question = (props) => {
   const questionLength = questions.length;
   const navigate = useNavigate();
 
-  const handleSkipClick = (e) =>
-    questionIndex < questionLength - 1
+  // const onAnyClick = () =>
+  //   document.getElementsByClassName("textValue").map((e) => (e.value = ""));
+
+  const handleSkipClick = (e) => {
+    return questionIndex < questionLength - 1
       ? setQuestionIndex(questionIndex + 1)
       : navigate("/match");
-  const handleSkipAllClick = (e) => navigate("/match");
+  };
+
+  const handleSkipAllClick = (e) => {
+    // onAnyClick();
+    return navigate("/match");
+  };
 
   return (
     <div className="q-container">
