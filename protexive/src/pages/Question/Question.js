@@ -42,7 +42,7 @@ const Question = (props) => {
         </div>
         <footer className="footer">
             <div className="skipAll">
-                <Button href="#" variant="text" className="skipAllButton" onClick={handleSkipClick}>Skip all</Button>
+                <Button href="#" variant="text" className="skipAllButton" onClick={handleSkipAllClick}>Skip all</Button>
             </div>
             <div className="forward">
                 <Button href="#" variant="text" className="skipButton" onClick={handleSkipClick}>skip</Button>
