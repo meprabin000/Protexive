@@ -1,0 +1,48 @@
+.box {
+    
+}
+
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 580;
+}
+
+.imageDescription {
+    text-align: center;
+}
+
+.textDescription {
+    padding: 20px;
+    text-justify: inter-word !important;
+}
+
+.coverage {
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(234, 232, 232);
+    border-radius: 15px;
+    color: #f01716;
+}
+
+.coverage > h1 {
+    padding-left: 35px;
+}
+
+.coverage > ul > li {
+    list-style-type: none;
+    overflow-x: visible;
+    padding: 2px 0px;
+    color: grey;
+}
+
+.quoteButtonWrapper {
+    text-align: center;
+}
+
+.quoteButton {
+    margin: 10px 0px;
+}
+
