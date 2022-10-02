@@ -1,5 +1,6 @@
 import './subCategoryCard.css'
 import { GrNext } from 'react-icons/gr';
+import {Link} from 'react-router-dom'
 
 function SubCategoryCard({subCatName, desc}) {
   return (
@@ -16,7 +17,9 @@ function SubCategoryCard({subCatName, desc}) {
         </div>
         
             <button className='btn-next'>
-                <GrNext className='btn-nxt-logo'/>
+               <Link to={"/questions"}>
+                    <GrNext className='btn-nxt-logo'/>
+               </Link> 
             </button>
         
         
