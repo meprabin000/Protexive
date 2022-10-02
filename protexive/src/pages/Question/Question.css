@@ -1,60 +1,83 @@
+.q-container{
+    background-color: rgb(250, 235, 215,0.35);
+    height: 100vh;
+}
 .surveyBox {
-    padding: 5%;
     font-family: Helvetica, sans-serif;
     position: relative;
-    height: 100vh;
+    margin-top: 20px;
+   
+    
 }
 
 .progressBar {
-    width: 90%;
+    margin: 20px 20px 30px 20px;
 }
 
 .questionCard {
-    width: 90%;
-    height: 80%;
-    text-align: center;
-    left: 5%;
+    margin: 20px;
+    height: 500px;
 }
 
-.question {
-    color: white;
-    box-sizing: border-box;
-    padding: 20px 0px;
-    font-size: 3em;
-    text-align: center;
+.qcard{
+    border-radius: 15px !important;
+    box-shadow: none !important;
+    border: none !important;
 }
-
+.question{
+    height: 20%;
+    color: rgb(0, 0, 0, 0.7) !important;
+    text-align: left;
+    font-size: 27px !important;
+    margin: 10px 0px 40px 0px;
+}
 .textInputWrapper {
-    padding: 10%;
+   margin-top: 40px;
+   border: 2px solid rgb(250, 235, 215, 0.5);
+   border-radius: 10px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .nextButtonWrapper {
-    padding-top: 10%;
+    margin-left: 30%;
+ 
+}
+
+
+.btn-icon{
+    
+    font-size: 35px;
 }
 
 .footer {
-    position: absolute;
-    bottom: 20%;
+    
     right: 0%;
     width: 90%;
 }
 
-.footer > div {
-    display: inline-block;
-}
 
-.skipAll {
-    width: 40%;
-}
 
-.forward {
-    width: 50%;
-}
 
-.skipButton, .skipAllButton {
-    color: white !important;
-}
 
-.skipButton {
-    padding-left: 80% !important;
+
+
+
+
+.user-name-2{
+    font-size: 30px;
+    color: #f01716;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+.welcome-msg-2{
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+    margin-left: 20px;
 }
