@@ -1,0 +1,100 @@
+.user-intro-3{
+    height: 150px;
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 0px 0px 150px 150px;
+    margin: auto;
+    padding: 20px;
+}
+
+.user-name-3{
+    text-align: center;
+    font-size: 30px;
+    color: #af0e0e;
+    font-weight: 500;
+}
+.welcome-msg-3{
+    font-size: 15px;
+    margin-top: 10px;
+    color: grey;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.coverage-breakdown{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 0px 20px;
+    height: 200px;
+    border: 0.5px solid grey;
+    border-radius: 15px;
+}
+
+.cbg-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+}
+
+.cbg-title{
+    font-size: 20px;
+    color: rgb(0,0,0,0.8);
+    font-weight: 500;
+}
+.cbg-detail{
+    margin: 0px 20px 10px 20px;
+    color: grey;
+}
+
+.ymal-container{
+    height: 250px;
+    background-color: antiquewhite;
+    margin: 20px 20px 0px 20px;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+
+.user-name-4{
+    margin: 20px 20px 10px 20px;
+    font-size: 25px;
+    color: #af0e0e;
+    font-weight: 500;
+}
+
+.pref-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.pref-row{
+    display: flex;
+    flex-direction: row;
+}
+.ymal-pref{
+    margin: 10px;
+}
+.pref-info{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.pref-title{
+    color: rgb(0,0,0,0.8);
+    font-size: 20px;
+    font-weight: 500;
+}
+.pref-text{
+    color:grey;
+}
+.pref-more{
+    text-align: center;
+    margin-left: 60%;
+    margin-top: 20px;
+    width: 140px;
+    background-color: #af0e0e;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    padding: 3px;
+}

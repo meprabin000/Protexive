@@ -13,7 +13,7 @@ const Home = (props) => {
         <Topbar/>
         <div className="home-container">
                 <div className="user-intro">
-                    <div className="user-name">Hey Alexander,</div>
+                    <div className="user-name">Hey Alex,</div>
                     <div className='welcome-msg'>Find the best insurance for your needs</div>
                 </div>
                 <div className="categories">

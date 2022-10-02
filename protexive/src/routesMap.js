@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./pages/Home/Home";
+import Match from "./pages/Match/Match";
 import Question from "./pages/Question/Question";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import InsuranceDescription from "./pages/InsuranceDescription/InsuranceDescription";
